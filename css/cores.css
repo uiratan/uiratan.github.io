@@ -1,0 +1,24 @@
+:root {
+    /* Primary Color: */
+    --cor-fundo: #497E92;
+    --cor-fundox: #3F535B;
+    --cor3: #083445;
+    --cor4: #84BACE;
+    --cor-frente: #9BC0CE;
+    /* Complementary Color: */
+    --cor-frente: #E9AF70;
+    --cor: #917A62;
+    --cor: #6D3F0D;
+    --cor: #F5C999;
+    --cor-frente: #F5D6B5;
+    --a: #B0C4DE;
+    --b: #F0F6FF;
+    --c: #547064;
+    --d: #AFDECA;
+    --e: #5E5E5E;
+    --cor-frente: #DEDEDE;
+    --blue-baby: #E3EFF9;
+    --blue-serenity: #AACDE5;
+    --blue-tiffany: #6CC4DC;
+    --blue-grotto: #3F92B7;
+}

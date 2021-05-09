@@ -1,0 +1,51 @@
+    html {
+        font-size: 15px;
+        /* px significa "pixels": o tamanho da fonte base é agora de 10 pixels */
+        font-family: "Open Sans", "Roboto Slab", sans-serif;
+        /* este deve ser o nome da fonte que você obteve no Google Fonts */
+        background-color: var(--cor-fundo);
+    }
+    
+    body {
+        /* Isso força o corpo a ter 600 pixels de largura */
+        width: 600px;
+        /* Quando você define dois valores em uma propriedade como margin ou padding, o primeiro valor afeta a parte superior do elemento e a parte inferior (tornando-os 0 nesse caso), e no segundo valor os lados esquerdo e direito (aqui, auto é um valor especial que divide o espaço horizontal uniformemente entre esquerda e direita). Você também pode utilizar um, três ou quatro valores */
+        margin: 0 auto;
+        background-color: var(--cor-frente);
+        /* sem padding na parte superior do corpo, e 20 pixels no lado esquerdo, na parte inferior e no lado direito */
+        padding: 0 20px 20px 20px;
+        /* borda preta sólida de 5 pixels de largura em todos os lados do corpo.
+*/
+        border: 5px solid black;
+    }
+    
+    h1 {
+        /* Você deve ter notado que há um espaço horrível no topo do corpo. Isso acontece porque os browsers aplicam algumas estilizações padrão ao <h1> (en-US) (entre outros), mesmo quando você não aplicou nenhum CSS! Isso pode soar como uma má ideia, mas queremos ter uma legibilidade básica, mesmo em uma página sem estilos. Para nos livrarmos desse espaço, sobrescrevemos o estilo padrão, definindo margin: 0;. */
+        margin: 0;
+        /* definimos o padding das partes superior e inferior do cabeçalho para 20 pixels */
+        padding: 20px 0;
+        /* mesma cor que a cor de fundo do HTML */
+        color: var(--cor-fundo);
+        /* 
+        O primeiro valor em pixel define o deslocamento horizontal da sombra do texto — até onde ele se move: um valor negativo deve movê-la para a esquerda.
+        O segundo valor em pixel define o deslocamento vertical da sombra do texto — o quanto ela se move para baixo, neste exemplo; um valor negativo deve movê-la para cima.
+        O terceiro valor em pixel define o raio de desfoque da sombra — um valor maior significará uma sombra mais borrada.
+        O quarto valor define a cor base da sombra. */
+        text-shadow: 3px 3px 1px black;
+        font-size: 60px;
+        text-align: center;
+    }
+    
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 600px;
+        height: 335px;
+    }
+    
+    p,
+    li {
+        font-size: 16px;
+        line-height: 2;
+        letter-spacing: 1px;
+    }
